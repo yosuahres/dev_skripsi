@@ -35,18 +35,23 @@ For each frame, construct a 4x4 matrix:
 
 Where x, y, z are the axes and o is the origin.   
 
-for mandible (m1):   
+for mandible (m1):
+
+```
 | 1  0  0  10 |
 | 0  1  0  20 |
 | 0  0  1  30 |
-| 0  0  0   1 |.  
+| 0  0  0   1 |
+```
 
-for fibula (m2):   
+for fibula (m2):
+
+```
 | 0  1  0 100 |
 | 1  0  0 200 |
 | 0  0 -1 300 |
-| 0  0  0   1 |.  
----
+| 0  0  0   1 |
+```
 
 ## 3. Compute the Registration Transform
 
